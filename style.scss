@@ -1,0 +1,48 @@
+// Styles
+@use './styles/config' as config;
+@use './styles/box';
+@use './styles/input';
+
+
+
+
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+
+// Code
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: config.$body-bg;
+    font-family: Poppins;
+}
+
+main{
+    margin: config.$margin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .half-cont{
+        width: 50%;
+    }
+}
+
+
+
+
+.header-path{
+    margin: 20px 15%;
+    font-size: 14px;
+    font-weight: 600;
+    color: config.$header-path-color;
+
+    span{
+        color: black;
+    }
+}

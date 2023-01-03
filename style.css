@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+.box {
+  width: 90%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.box .header-box {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+
+.input-gr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.input {
+  display: block;
+  max-width: calc(100% - 25px);
+  margin: 0 10px;
+}
+.input-mini {
+  max-width: 33%;
+}
+.input .label {
+  color: #44464a;
+  font-size: 14px;
+  font-weight: 600;
+}
+.input input {
+  border: 2px solid rgba(140, 140, 140, 0.7960784314);
+  padding: 10px;
+  border-radius: 5px;
+  color: #44464a;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.input input:focus {
+  outline: none;
+}
+.input .input-w-100 {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #d9d9d9;
+  font-family: Poppins;
+}
+
+main {
+  margin: 0 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .half-cont {
+  width: 50%;
+}
+
+.header-path {
+  margin: 20px 15%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #44464a;
+}
+.header-path span {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

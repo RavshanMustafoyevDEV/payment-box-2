@@ -1,0 +1,23 @@
+@use './config' as cfg;
+
+
+.box{
+    width: 90%;
+    background: #fff;
+    padding: cfg.$box-padding;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: cfg.$box-shadow;
+
+
+    .header-box{
+        font-size: 35px;
+        font-weight: 600;
+        margin: 0 0 15px 0;
+    }
+}
+
+
+
+
+

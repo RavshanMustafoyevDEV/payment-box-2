@@ -1,0 +1,43 @@
+@use './config' as cfg;
+
+.input-gr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.input{
+    display: block;
+    max-width: calc(100% - cfg.$box-padding);
+    margin: 0 10px;
+
+    &-mini{
+        max-width: 33%;
+    }
+
+    .label{
+        color: cfg.$header-path-color;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    input{
+        border: cfg.$input-border;
+        padding: cfg.$input-padding;
+        border-radius: 5px;
+
+        color: cfg.$header-path-color;
+        font-weight: 600;
+        font-family: Poppins;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .input-w-100{
+        width: 100%;
+    }
+}
+
