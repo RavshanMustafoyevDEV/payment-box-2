@@ -22,11 +22,6 @@
 
 .input {
   display: block;
-  max-width: calc(100% - 25px);
-  margin: 0 10px;
-}
-.input-mini {
-  max-width: 33%;
 }
 .input .label {
   color: #44464a;
@@ -37,15 +32,13 @@
   border: 2px solid rgba(140, 140, 140, 0.7960784314);
   padding: 10px;
   border-radius: 5px;
+  width: 100%;
   color: #44464a;
   font-weight: 600;
   font-family: Poppins;
 }
 .input input:focus {
   outline: none;
-}
-.input .input-w-100 {
-  width: 100%;
 }
 
 body {
@@ -56,13 +49,14 @@ body {
   font-family: Poppins;
 }
 
-main {
+.main {
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-main .half-cont {
+.main .half-cont {
   width: 50%;
 }
 

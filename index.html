@@ -7,7 +7,11 @@
     <title>Sass 3</title>
 
     <!-- Sass Style -->
-    <link rel="stylesheet" href="style.css">                       
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">   
 </head>
 <body>
     
@@ -15,107 +19,111 @@
         Cart - Customer Information - Shiping Method - <span>Payment Method</span>
     </div>
     
-    <main>
+    <div class="container main">
 
-
-        <div class="half-cont">
-            <div class="box">
-                <div class="header-box">
-                    Payment Information
-                </div>
-
-                <div class="form">
-                    <div class="input-gr">
-                        <div class="input">
-                            <div class="label">Card Number</div>
-                            <input type="text" name="" id="" placeholder="**** **** **** ****" class="input-w-100">
-                        </div>
+        <div class="row">
+            <div class="half-cont col col-lg-6 col-sm-12">
+                <div class="box">
+                    <div class="header-box container">
+                        Payment Information
                     </div>
-
-                    <div class="input-gr">
-                        <div class="input">
-                            <div class="label">Card Holder</div>
-                            <input type="text" name="" id="" placeholder="Michael Jordan">
-                        </div>
-
-                        <div class="input">
-                            <div class="label">Exp. Date</div>
-                            <input type="text" name="" id="" placeholder="03 / 19" class="input-mini">
-                        </div>
-
-                        <div class="input">
-                            <div class="label">CVC</div>
-                            <input type="text" name="" id="" placeholder="****" class="input-mini">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="header-box">
-                    Billing address
-                </div>
-
-                <form action="">
-                    <div class="form">
-                        <div class="input-gr">
-                            <div class="input-check">
-                                <input type="radio" name="" id="" class="">
-                                <div class="label">Same as the shipping address</div>
+    
+                    <div class="form container-fluid">
+                        <div class="input-gr row">
+                            <div class="input col-12">
+                                <div class="label">Card Number</div>
+                                <input type="text" name="" id="" placeholder="**** **** **** ****" class="input-w-100">
                             </div>
                         </div>
-
-                        <div class="input-gr">
-                            <div class="input-check">
-                                <input type="radio" name="" id="">
-                                <div class="label">Use a different billing address</div>
+    
+                        <div class="input-gr row">
+                            <div class="input col-lg-6 ">
+                                <div class="label">Card Holder</div>
+                                <input type="text" name="" id="" placeholder="Michael Jordan">
+                            </div>
+    
+                            <div class="input col-lg">
+                                <div class="label">Exp. Date</div>
+                                <input type="text" name="" id="" placeholder="03 / 19" class="input-mini">
+                            </div>
+    
+                            <div class="input col-lg">
+                                <div class="label">CVC</div>
+                                <input type="text" name="" id="" placeholder="****" class="input-mini">
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
-
-            <div class="foo">
-                <button class="btn">Return to shipping method</button>
-
-                <button class="btn-bg">Complete order</button>
-            </div>
-        </div>
-
-
-        <div class="half-cont">
-            <div class="box">
-                <div class="orders">
-                    <div class="order-item">
-                        <div class="icon-item">
-                            <img src="./img/order.jpg" alt="" class="img-item">
-                            <div class="count-item">2</div>
+                </div>
+    
+                <div class="box">
+                    <div class="header-box">
+                        Billing address
+                    </div>
+    
+                    <form action="">
+                        <div class="form">
+                            <div class="input-gr">
+                                <div class="input-check">
+                                    <input type="radio" name="" id="" class="">
+                                    <div class="label">Same as the shipping address</div>
+                                </div>
+                            </div>
+    
+                            <div class="input-gr">
+                                <div class="input-check">
+                                    <input type="radio" name="" id="">
+                                    <div class="label">Use a different billing address</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="name-item">Chocolate Bar</div>
-                        <div class="price-item">$ 2.49</div>
-                    </div>
+                    </form>
                 </div>
-
-                <div class="shipping">
-                    <div class="shipping-item">
-                        <div class="shipping-header">Subtotal</div>
-                        <div class="shipping-price">$ 4.98</div>
-                    </div>
-
-                    <div class="shipping-item">
-                        <div class="shipping-header">Shipping</div>
-                        <div class="shipping-price">$ 3.00</div>
-                    </div>
-
+    
+                <div class="foo">
+                    <button class="btn">Return to shipping method</button>
+    
+                    <button class="btn-bg">Complete order</button>
                 </div>
-
-                <div class="total">
-                    <div class="total-header">Shipping</div>
-                    <div class="total-price">$ 7.98</div>
+            </div>
+    
+    
+            <div class="half-cont col col-lg-6 col-sm-12">
+                <div class="box">
+                    <div class="orders">
+                        <div class="order-item">
+                            <div class="icon-item">
+                                <img src="./img/order.jpg" alt="" class="img-item">
+                                <div class="count-item">2</div>
+                            </div>
+                            <div class="name-item">Chocolate Bar</div>
+                            <div class="price-item">$ 2.49</div>
+                        </div>
+                    </div>
+    
+                    <div class="shipping">
+                        <div class="shipping-item">
+                            <div class="shipping-header">Subtotal</div>
+                            <div class="shipping-price">$ 4.98</div>
+                        </div>
+    
+                        <div class="shipping-item">
+                            <div class="shipping-header">Shipping</div>
+                            <div class="shipping-price">$ 3.00</div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="total">
+                        <div class="total-header">Shipping</div>
+                        <div class="total-price">$ 7.98</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

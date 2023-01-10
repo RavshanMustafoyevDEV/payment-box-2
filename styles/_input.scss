@@ -9,12 +9,7 @@
 
 .input{
     display: block;
-    max-width: calc(100% - cfg.$box-padding);
-    margin: 0 10px;
 
-    &-mini{
-        max-width: 33%;
-    }
 
     .label{
         color: cfg.$header-path-color;
@@ -26,6 +21,7 @@
         border: cfg.$input-border;
         padding: cfg.$input-padding;
         border-radius: 5px;
+        width: 100%;
 
         color: cfg.$header-path-color;
         font-weight: 600;
@@ -36,8 +32,8 @@
         }
     }
 
-    .input-w-100{
-        width: 100%;
-    }
+    // .input-w-100{
+    //     width: 100%;
+    // }
 }
 
