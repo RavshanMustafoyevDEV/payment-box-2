@@ -1,0 +1,22 @@
+.foo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    .btn{
+        color: #3f5cff;
+        padding: 0;
+    }
+
+    .btn-bg{
+        color: white;
+        background: #3f5cff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+}
+
+
+
+

@@ -1,0 +1,81 @@
+@use './config' as cfg;
+
+
+.orders{
+    width: 100%;
+    display: block;
+    align-items: center;
+    border-bottom: cfg.$input-border;
+
+    .order-item{
+        width: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+
+        .icon-item{
+            display: flex;
+
+            .img-item{
+                width: 70px;
+                height: 70px;
+                padding: 10px;
+                border-radius: 5px;
+                border: cfg.$input-border;
+            }
+
+            .count-order{
+                position: absolute;
+                text-align: center;
+                padding: 5px 12px;
+                left: 4rem;
+                width: auto;
+                height: auto;
+                color: white;
+                font-weight: 500;
+                border-radius: 15px;
+                background: cfg.$basic-blue;
+            }
+        }
+
+        .name-item{
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .price-item{
+            font-weight: 700; 
+            font-size: 18px;     
+        }
+    } 
+}
+
+
+.shipping{
+    width: 100%;
+    display: block;
+    border-bottom: cfg.$input-border;
+    
+    .shipping-item{
+        display: flex;
+        margin: 15px 0;
+        font-weight: 500;
+    }
+}
+
+
+
+    
+.total{
+    justify-content: space-between;
+    display: flex;
+    margin: 15px 0;
+    font-weight: 500;
+
+    .total-price{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
