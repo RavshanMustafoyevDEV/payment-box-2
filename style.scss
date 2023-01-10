@@ -26,14 +26,6 @@ body{
 
 .main{
     margin: config.$margin;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-    .half-cont{
-        width: 50%;
-    }
 }
 
 

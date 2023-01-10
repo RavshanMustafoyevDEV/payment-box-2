@@ -92,7 +92,8 @@
 .orders .order-item .icon-item .count-order {
   position: absolute;
   text-align: center;
-  padding: 5px 12px;
+  padding: 3px 9px;
+  font-size: 12px;
   left: 4rem;
   width: auto;
   height: auto;
@@ -142,13 +143,6 @@ body {
 
 .main {
   margin: 0 15%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.main .half-cont {
-  width: 50%;
 }
 
 .header-path {
